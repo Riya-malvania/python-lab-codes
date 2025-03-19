@@ -1,0 +1,33 @@
+x=int(input('enter the num:'))
+y=int(input('enter the num:'))
+z=int(input('enter the num:'))
+s=x+y+z
+avg=s/3
+print('average of marks is:',avg)
+print('total of marks is:',s)
+if avg<39:
+    print('fail in sub 1')
+if avg<=44 or avg>=40:
+    print('grade: p')
+if avg>=45 or avg<=49:
+    print('grade: c')
+if avg>=50 or avg<=54:
+    print('B')
+if avg>=55 or avg<=59:
+    print('B+')
+if avg>=60 or avg<=69:
+    print('A')
+if avg>=70 or avg<=79:
+    print('A+')
+if avg>=80 or avg<=100:
+    print('0')
+
+
+
+  output:
+enter the num:67
+enter the num:78
+enter the num:90
+average of marks is: 78.33333333333333
+total of marks is: 235
+grade: A+
