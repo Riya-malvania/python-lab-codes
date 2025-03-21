@@ -1,0 +1,11 @@
+import datetime
+t1=(5,7,2006)
+t2=(21,3,2025)
+d1=datetime.date(t1[2],t1[1],t1[0])
+d2=datetime.date(t2[2],t2[1],t2[0])
+x=d2-d1
+print('no of days between the given dates:',x)
+
+output:
+no of days between the given dates: 6834 days, 0:00:00
+
