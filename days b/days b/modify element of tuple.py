@@ -1,0 +1,12 @@
+t1=(1,2,3,'riya','s',1.4)
+print('tuple before modification',t1)
+l=list(t1)
+l[3]=4
+l[5]=1
+t2=tuple(l)
+print('tuple after modification',t2)
+
+
+output:
+tuple before modification (1, 2, 3, 'riya', 's', 1.4)
+tuple after modification (1, 2, 3, 4, 's', 1)
